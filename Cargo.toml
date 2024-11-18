@@ -1,0 +1,11 @@
+[package]
+name = "mock"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.9"
+serde = "1.0.215"
+tokio = { version = "1.41.1", features = ["full"] }
+tower-http = { version = "0.6.1", features = ["trace"] }
+mockall = "0.13.1"
